@@ -273,7 +273,6 @@ is maintained by the W3C.
 
 ## Reference
 * https://www.stuartellis.name/articles/mac-setup/
-* 
 
 :::info
 :bulb: **Hint:** You can also apply styling from the toolbar at the top :arrow_upper_left: of the editing area.
