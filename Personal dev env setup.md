@@ -110,7 +110,7 @@ All done. Enjoy your Zsh IMproved! Restart your terminal for changes to take eff
 ```
 把 Terminal 重新開啟之後，便安裝完成啦！接著我們便可以利用它來安裝其他好用的工具
 
-## Terminal Theme
+### Use Zim install Terminal Theme
 而在 Theme 的選擇方面有兩個滿多人用的分別是 [Powerlevel10k](https://github.com/romkatv/powerlevel10k) 以及 [Spaceship](https://github.com/denysdovhan/spaceship-prompt)，先澄清一下，看起來酷不酷炫並不是我考量的要點XD 我注重的是執行速度，命令自動完成，常用命令提示，跟 Prompt 資訊的完整性…等，其實 Prompt 就是那個 PS1 環境變數，預設顯示的資訊其實滿陽春的，通常就只有 1) 使用者名稱 2) Hostname 3) 當前資料夾，對於這個資訊爆炸的時代來說，其實很不夠用，例如，我想要知道目前的 Git 相關資訊 (目前位於哪一個 Branch, Commit 的狀況…等)，或是想要知道 Kubernetes Context 目前使用得是哪一個，傳統的 PS1 的資訊其實完全不夠用，**在 Prompt 顯示的資訊豐富程度來說，我覺得 Spaceship 很棒，而 Powerlevel10k 也不錯，不過在兩者的回饋速度來說，Powerlevel10k 略勝一籌，因此在經過一段時間的評估之後，我選擇了 Powerlevel10k (底下有實際比較影片供參考)**
 ```
 # 首先將 zmodule romkatv/powerlevel10k 加到 ~/.zimrc 中，
@@ -134,7 +134,7 @@ Install Meslo Nerd Font?
 (q)  Quit and do nothing.
 ```
 
-### Customize prompt
+#### Customize prompt
 Edit `~/.p10k.zsh` then `source ~/.p10k.zsh` to take effect.
 
 Powerlevel10k doesn't recognize Pure configuration parameters, so you'll need to use `POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD=3` instead of `PURE_CMD_MAX_EXEC_TIME=3`, etc. All relevant parameters are in `~/.p10k.zsh`. This file has plenty of comments to help you navigate through it.
